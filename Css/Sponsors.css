@@ -1,0 +1,96 @@
+body{
+    color: black;
+    background-color: #E5E3C9;
+}
+
+
+.sponsor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+
+.sponsor > .title{
+    
+    font-weight: bold;
+    font-size: xx-large;
+    margin-top: 5rem;
+}
+
+.sponsor > .sponsor-content{
+    display: grid;
+    padding: 2rem;
+    justify-items: center;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    justify-content: center;
+    align-items: center;
+}
+
+.sponsor > .walk-card{
+    display: grid;
+    padding: 2rem;
+
+    grid-template-columns: auto auto;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+
+
+
+.content{
+    display: flex;
+    background-color: white;
+    border: 2px solid #B4CFB0;
+    box-shadow: 3px 4px #B4CFB0;;
+    border-radius: 8px;
+    text-shadow: 4px 4px 8px #789395;
+    width: 70%;
+    height: 80%;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: justify;
+    margin: 2rem;
+    padding: 2rem;
+    text-indent: 20px;
+    /* background-color: rebeccapurple; */
+}
+
+.content:hover{
+    
+}
+
+.content > img{
+    width: 200px;
+    height: 200px;
+    /* border: 1px solid #851e3e; */
+    border-radius: 4px;
+    object-fit: cover;
+    object-position: center;
+    margin-bottom: 1rem;
+}
+
+
+@media screen and (max-width: 800px){
+
+    .sponsor > .sponsor-content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .sponsor > .walk-card{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+}

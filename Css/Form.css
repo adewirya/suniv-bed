@@ -1,0 +1,95 @@
+body{
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+
+.form {
+    /* width: 100%; */
+    font-size: large;
+    /* background-image: url(); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10rem;
+}
+
+.form > form{
+    background-color: #251e3e ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 3px solid  #851e3e  ;
+    border-radius: 10px;
+    width: 40%;
+    padding: 3rem;
+    /* padding: 3rem; */
+}
+
+.form > form >.title{
+    padding: 1rem;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.form > form > .input{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.form > form > .input > input{
+    height: 2rem;
+    background-color: #451e3e ;
+    color: white;
+    border-radius: 4px;
+    width: 100%;
+    border-color: #851e3e ;
+}
+
+
+.form > form > .input > select {
+    height: 2rem;
+    background-color: #451e3e ;
+    color: white;
+    width: 100%;
+    border-radius: 4px;
+    border-color: #851e3e ;
+}
+
+.form > form > .input > label{
+    margin-bottom: 1rem;
+}
+
+.form > form > button{
+    border-color: #851e3e ;
+    margin-top: 2rem;
+    background-color: #451e3e ;
+    color: white;
+    font-weight: bold;
+    height: 2.3rem;
+    padding: 0.4rem;
+    margin-bottom: 2rem;
+    width: 100%;
+    border-radius: 4px;
+}
+
+
+@media screen and (max-width: 800px){
+
+    .form > form{
+        text-align: center;
+        width: 70%;
+    }
+
+}

@@ -1,0 +1,146 @@
+body{
+    color: black;
+    background-color: #E5E3C9;
+}
+
+.title-exp{
+    text-shadow: 4px 4px 8px #29496f;
+    color:    white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    text-align: center;
+    /* width: 100%; */
+    /* font-size: xx-large; */
+    font-size: 4rem;
+    padding: 9rem;
+    background-repeat: no-repeat;
+    /* background-position: ; */
+    background-size: cover;
+    background-image: url(../Assets/covid.jpg);
+}
+
+.content{
+    margin-top : 0.5rem;
+    margin-bottom: 0.5rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.content > span{
+    font-size: larger;
+    text-indent: 100px;
+    width: 50%;
+    /* margin-right: 30rem; */
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+
+.v2{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.v2 > span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 3rem;
+}
+
+.content > .right > img {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+    border : 1px solid #851e3e;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+}
+
+.content > .right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* padding: 1rem; */
+}
+
+.content > .right > span{
+    font-size: large;
+}
+
+.content > .left > span{
+    font-size: large;
+}
+
+.content > .left > img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+    border : 1px solid #851e3e;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+}
+
+.content > .left{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.outer-container{
+    background-color: white;
+    padding: 2rem;
+    border-radius: 15px;
+    margin: 6rem;
+}
+
+
+.outer-container:hover{
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 800px){
+
+
+    .content{
+        flex-direction: column;
+    }
+
+    .content > .right > img {
+        width: 200px;
+        height: 100px;
+    }
+
+    .content > .left > img{
+        width: 200px;
+        height: 100px;
+    }
+
+
+    .content > span{
+        font-size: medium;
+    }
+
+
+    .v2 > span{
+        margin: 0;
+    }
+}

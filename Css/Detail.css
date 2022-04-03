@@ -1,0 +1,32 @@
+body{
+    background-color: #E5E3C9;
+}
+
+.outer-container{
+    padding: 2rem;
+    margin: 10rem;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.detail-title{
+    font-size: xx-large;
+    font-weight: bold;
+    padding: 2rem;
+}
+
+.img-container{
+    width: 80%;
+    height: 80%;
+}
+
+.main-content{
+    font-size: large;
+    text-align: justify;
+    text-indent: 100px;
+}

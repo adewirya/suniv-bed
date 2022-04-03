@@ -1,0 +1,75 @@
+body{
+    color: white;
+}
+
+.title-chp{
+    color: #851e3e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    text-align: center;
+    /* width: 100%; */
+    /* font-size: xx-large; */
+    font-size: 3rem;
+    padding: 8rem;
+    background-image: url(../Assets/bg-top52.jpg);
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-size: cover;
+}
+
+
+.content-chp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1rem;
+    /* max-width: 50%; */
+    /* width: 100%; */
+    /* margin-left: 25%; */
+    /* width: 50%; */
+}
+
+.content > .title{
+    font-weight: bold;
+    font-size: large;
+}
+
+.content{
+    width: 30%;
+    /* max-width: 50%; */
+    /* width: 50%; */
+    border: 2px solid #851e3e;
+    border-radius: 4px;
+    padding: 2rem;
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: justify;
+    text-indent: 30px;
+    box-shadow : 3px 4px #851e3e;
+}
+
+.content-chp >.content >img{
+    width: 200px;
+    height: 200px;
+}
+
+
+@media screen and (max-width: 800px){
+
+    .content-chp >.content >img{
+        width: 100px;
+        height: 100px;
+    }
+
+    
+.content{
+    font-size: small;
+}
+
+}
